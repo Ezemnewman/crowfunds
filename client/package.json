@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "vercel-build": "vite build",
     "preview": "vite preview",
     "lint": "eslint ."
   },
@@ -14,9 +15,5 @@
     "react-dom": "^18.3.1",
     "vite": "^5.4.1",
     "@vitejs/plugin-react": "^4.3.1"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-react": "^4.3.1",
-    "vite": "^5.4.2"
   }
 }
