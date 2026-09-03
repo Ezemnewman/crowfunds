@@ -15,6 +15,12 @@ export default function App() {
   const [loading, setLoading] = useState(true);
 
   const [error, setError] = useState(null);
+  // Fallback to relative path if deployed on the same Vercel domain
+const API_BASE = import.meta.env.VITE_API_BASE_URL || '';
+
+fetch(`${API_BASE}/api/entries/musk-foundation`)
+  .then((res) => res.json())
+  .then((data) => setEntry(data));
 
 
 

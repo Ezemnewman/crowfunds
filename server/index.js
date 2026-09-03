@@ -61,3 +61,4 @@ app.get('/', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Infobox API listening on http://localhost:${PORT}`);
 });
+export default app;
