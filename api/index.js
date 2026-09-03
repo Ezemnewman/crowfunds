@@ -1,3 +1,3 @@
-import app from '../server/index.js'; // Adjust the import path to your Express app file
+import app from '../server/index.js';
 
 export default app;
